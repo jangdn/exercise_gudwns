@@ -1,0 +1,14 @@
+{
+    "apps" : {
+      "name"        : "jangdn",
+      "script"      : "node index.js",
+      "watch"       : true,
+      "env": {
+        "NODE_ENV": "develop"
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+  
